@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            <%= title%>
+        </title>
+    </head>
+    <body>
+        <!-- <h1>PlayGround</h1>
+        <ul>
+            <% for(let i=1;i<6;i++){%>
+            <li>
+                <%=i%>
+            </li>
+            <%}%>
+        </ul>
+
+        <% if(true) {%>
+            <h1>It's true</h1>
+        <%} else {%>
+            <p>It's false:(</p>
+        <%}%> -->
+
+        <h1>Contact List</h1>
+
+        <ul>
+            <% for(let i of contact_list){%>
+                <li>
+                    <h3>
+                        <%=i.name%>
+                    </h3>
+                    <p>
+                        <%= i.phone%>
+                    </p>
+                </li>
+            <%}%>
+        </ul>
+
+
+        
+
+    </body>
+</html>

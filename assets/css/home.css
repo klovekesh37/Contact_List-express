@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    color: gray;
+    margin-top: 25px;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(106, 106, 219);
+    padding: 0;
+    margin: 5px;
+}
+
+.list h3,p{
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.list p{
+    float: right;
+}
+.list{
+    width: 700px;
+    margin: auto;
+}
+
+
+.inp{
+    width: 600px;
+    margin: auto;
+    
+}
+.list li:hover{
+    color: gray;
+}
+
+.inp input{
+    border-style: none;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    width: 23s0px;
+}
+.inp button{
+    border-style: solid;
+    border-radius: 10%;
+    background-color: rgb(240, 220, 220);
+    width: 100px;
+}
